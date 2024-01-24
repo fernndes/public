@@ -2,6 +2,8 @@ const express = require('express')
 const app = express()
 const port = 3333
 
+require('dotenv').config()
+
 app.use(express.json())
 app.use(express.urlencoded({ extended: true}))
 
