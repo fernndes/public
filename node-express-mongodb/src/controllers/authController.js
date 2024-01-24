@@ -20,31 +20,31 @@ router.post("/register", async (req, res) => {
 
         const user = await User.create(req.body)
 
-        return response.send({
+        return res.send({
             user,
             token: generateToken({ id: user.id })            
         })
     } catch (error) {
-        return response.status(400).send({ error: "Registration failed" })
+        return res.status(400).send({ error: "Registration failed" })
     }
 })
 
-router.post('/authenticate', async (request, response) => {
+router.post('/authenticate', async (request, res) => {
     const { email, password } = request.body 
 
     const user = await User.findOne({ email }).select('+password')
 
     if(!user)
-        return response.status(400).send({ error: 'User not found' })
+        return res.status(400).send({ error: 'User not found' })
 
     if(!await bcrypt.compare(password, user.password))
-        return response.status(400).send({ error: 'Invalid password' })
+        return res.status(400).send({ error: 'Invalid password' })
 
     user.password = undefined
     
-    response.send({ 
+    res.send({ 
         user,
         token: generateToken({ id: user.id }) })
 })
 
-module.exports = (app) => app.use("/auth", router)
+module.exports = (app) => app.use("/api/auth", router)
