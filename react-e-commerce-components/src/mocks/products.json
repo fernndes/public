@@ -1,121 +1,140 @@
 {
-    "products": [
-      {
-        "id": 1,
-        "name": "Product A",
-        "description": "A brief description of Product A.",
-        "price": 49.99,
-        "stock": 100,
-        "skus": [
-          {
-            "id": 101,
-            "color": "Blue",
-            "size": "S",
-            "material": "Cotton",
-            "stock": 30,
-            "image": "url_of_product_a_blue_s_image.jpg"
-          },
-          {
-            "id": 102,
-            "color": "Blue",
-            "size": "M",
-            "material": "Cotton",
-            "stock": 25,
-            "image": "url_of_product_a_blue_m_image.jpg"
-          },
-          {
-            "id": 103,
-            "color": "Blue",
-            "size": "L",
-            "material": "Cotton",
-            "stock": 45,
-            "image": "url_of_product_a_blue_l_image.jpg"
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "name": "Product A - Polyester",
-        "description": "A brief description of Product A with Polyester material.",
-        "price": 49.99,
-        "stock": 50,
-        "skus": [
-          {
-            "id": 201,
-            "color": "Red",
-            "size": "M",
-            "material": "Polyester",
-            "stock": 20,
-            "image": "url_of_product_a_polyester_red_m_image.jpg"
-          },
-          {
-            "id": 202,
-            "color": "Red",
-            "size": "L",
-            "material": "Polyester",
-            "stock": 15,
-            "image": "url_of_product_a_polyester_red_l_image.jpg"
-          },
-          {
-            "id": 203,
-            "color": "Red",
-            "size": "XL",
-            "material": "Polyester",
-            "stock": 15,
-            "image": "url_of_product_a_polyester_red_xl_image.jpg"
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "name": "Product B",
-        "description": "A brief description of Product B.",
-        "price": 79.99,
-        "stock": 75,
-        "skus": [
-          {
-            "id": 301,
-            "color": "Green",
-            "size": "S",
-            "material": "Linen",
-            "stock": 40,
-            "image": "url_of_product_b_green_s_image.jpg"
-          },
-          {
-            "id": 302,
-            "color": "Green",
-            "size": "M",
-            "material": "Linen",
-            "stock": 35,
-            "image": "url_of_product_b_green_m_image.jpg"
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "name": "Product B - Cotton",
-        "description": "A brief description of Product B with Cotton material.",
-        "price": 79.99,
-        "stock": 75,
-        "skus": [
-          {
-            "id": 401,
-            "color": "Blue",
-            "size": "M",
-            "material": "Cotton",
-            "stock": 20,
-            "image": "url_of_product_b_cotton_blue_m_image.jpg"
-          },
-          {
-            "id": 402,
-            "color": "Blue",
-            "size": "L",
-            "material": "Cotton",
-            "stock": 25,
-            "image": "url_of_product_b_cotton_blue_l_image.jpg"
-          }
-        ]
-      }
-    ]
-  }
-  
+    "gtm": {
+        "session": {
+            "timeParting": "02:16-quinta-feira"
+        }
+    },
+    "chaordic": {
+        "product": {
+            "id": "FB8-4338-026",
+            "url": "www.netshoes.com.br/tenis-infantil-adidas-breaknet-lifestyle-court-lace-preto+branco-FB8-4338-026",
+            "categories": [
+                {
+                    "id": "Tênis",
+                    "name": "Tênis",
+                    "parents": [
+                        "Infantil"
+                    ]
+                },
+                {
+                    "id": "Infantil",
+                    "name": "Infantil"
+                }
+            ],
+            "images": {
+                "default": "//static.netshoes.com.br/produtos/tenis-infantil-adidas-breaknet-lifestyle-court-lace/26/FB8-4338-026/FB8-4338-026_detalhe1.jpg?ts=1700218453"
+            },
+            "name": "Tênis Infantil Adidas Breaknet Lifestyle Court Lace",
+            "description": "Invista no Tênis Infantil Adidas Breaknet Lifestyle Court Lace para garantir conforto para o dia a dia de seus filhos! Desenvolvido em material de alta qualidade, o tênis infantil Adidas Breaknet Lifestyle possui palmilha e entressola macias, cano baixo e amarração em cadarço, ideal para ser utilizado na escola, nos passeios e até mesmo em atividades ou esportes leves, proporcionando muito estilo, cuidado e bem-estar para a galerinha. Combine-o com bermuda tactel, shorts e camisetas Adidas para  lookinhos cleans e super atualizados. Não perca tempo, compre agora!",
+            "status": "available",
+            "skus": [
+                {
+                    "sku": "FB8-4338-026-26",
+                    "status": "available",
+                    "specs": {
+                        "size": "26",
+                        "color": "Preto+Branco"
+                    }
+                },
+                {
+                    "sku": "FB8-4338-026-27",
+                    "status": "available",
+                    "specs": {
+                        "size": "27",
+                        "color": "Preto+Branco"
+                    }
+                },
+                {
+                    "sku": "FB8-4338-026-28",
+                    "status": "unavailable",
+                    "specs": {
+                        "size": "28",
+                        "color": "Preto+Branco"
+                    }
+                },
+                {
+                    "sku": "FB8-4338-026-29",
+                    "status": "unavailable",
+                    "specs": {
+                        "size": "29",
+                        "color": "Preto+Branco"
+                    }
+                },
+                {
+                    "sku": "FB8-4338-026-30",
+                    "status": "unavailable",
+                    "specs": {
+                        "size": "30",
+                        "color": "Preto+Branco"
+                    }
+                },
+                {
+                    "sku": "FB8-4338-026-31",
+                    "status": "unavailable",
+                    "specs": {
+                        "size": "31",
+                        "color": "Preto+Branco"
+                    }
+                },
+                {
+                    "sku": "FB8-4338-026-32",
+                    "status": "unavailable",
+                    "specs": {
+                        "size": "32",
+                        "color": "Preto+Branco"
+                    }
+                },
+                {
+                    "sku": "FB8-4338-026-33",
+                    "status": "unavailable",
+                    "specs": {
+                        "size": "33",
+                        "color": "Preto+Branco"
+                    }
+                },
+                {
+                    "sku": "FB8-4338-026-34",
+                    "status": "unavailable",
+                    "specs": {
+                        "size": "34",
+                        "color": "Preto+Branco"
+                    }
+                },
+                {
+                    "sku": "FB8-4338-026-35",
+                    "status": "unavailable",
+                    "specs": {
+                        "size": "35",
+                        "color": "Preto+Branco"
+                    }
+                },
+                {
+                    "sku": "FB8-4338-026-36",
+                    "status": "unavailable",
+                    "specs": {
+                        "size": "36",
+                        "color": "Preto+Branco"
+                    }
+                }
+            ],
+            "price": 179.99,
+            "old_price": 279.99
+        },
+        "page": {
+            "name": "product",
+            "categories": [
+                {
+                    "id": "Tênis",
+                    "name": "Tênis",
+                    "parents": [
+                        "Infantil"
+                    ]
+                },
+                {
+                    "id": "Infantil",
+                    "name": "Infantil"
+                }
+            ]
+        }
+    }
+}
