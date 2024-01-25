@@ -5,64 +5,114 @@
         "name": "Product A",
         "description": "A brief description of Product A.",
         "price": 49.99,
-        "image": "url_of_product_a_image.jpg",
         "stock": 100,
         "skus": [
           {
             "id": 101,
             "color": "Blue",
-            "size": "M",
-            "material": "Cotton"
+            "size": "S",
+            "material": "Cotton",
+            "stock": 30,
+            "image": "url_of_product_a_blue_s_image.jpg"
           },
           {
             "id": 102,
-            "color": "Red",
+            "color": "Blue",
+            "size": "M",
+            "material": "Cotton",
+            "stock": 25,
+            "image": "url_of_product_a_blue_m_image.jpg"
+          },
+          {
+            "id": 103,
+            "color": "Blue",
             "size": "L",
-            "material": "Polyester"
+            "material": "Cotton",
+            "stock": 45,
+            "image": "url_of_product_a_blue_l_image.jpg"
           }
         ]
       },
       {
         "id": 2,
-        "name": "Product B",
-        "description": "A brief description of Product B.",
-        "price": 79.99,
-        "image": "url_of_product_b_image.jpg",
+        "name": "Product A - Polyester",
+        "description": "A brief description of Product A with Polyester material.",
+        "price": 49.99,
         "stock": 50,
         "skus": [
           {
             "id": 201,
             "color": "Red",
-            "size": "L",
-            "material": "Polyester"
+            "size": "M",
+            "material": "Polyester",
+            "stock": 20,
+            "image": "url_of_product_a_polyester_red_m_image.jpg"
           },
           {
             "id": 202,
-            "color": "Green",
-            "size": "S",
-            "material": "Linen"
+            "color": "Red",
+            "size": "L",
+            "material": "Polyester",
+            "stock": 15,
+            "image": "url_of_product_a_polyester_red_l_image.jpg"
+          },
+          {
+            "id": 203,
+            "color": "Red",
+            "size": "XL",
+            "material": "Polyester",
+            "stock": 15,
+            "image": "url_of_product_a_polyester_red_xl_image.jpg"
           }
         ]
       },
       {
         "id": 3,
-        "name": "Product C",
-        "description": "A brief description of Product C.",
-        "price": 29.99,
-        "image": "url_of_product_c_image.jpg",
+        "name": "Product B",
+        "description": "A brief description of Product B.",
+        "price": 79.99,
         "stock": 75,
         "skus": [
           {
             "id": 301,
             "color": "Green",
             "size": "S",
-            "material": "Linen"
+            "material": "Linen",
+            "stock": 40,
+            "image": "url_of_product_b_green_s_image.jpg"
           },
           {
             "id": 302,
+            "color": "Green",
+            "size": "M",
+            "material": "Linen",
+            "stock": 35,
+            "image": "url_of_product_b_green_m_image.jpg"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Product B - Cotton",
+        "description": "A brief description of Product B with Cotton material.",
+        "price": 79.99,
+        "stock": 75,
+        "skus": [
+          {
+            "id": 401,
             "color": "Blue",
             "size": "M",
-            "material": "Cotton"
+            "material": "Cotton",
+            "stock": 20,
+            "image": "url_of_product_b_cotton_blue_m_image.jpg"
+          },
+          {
+            "id": 402,
+            "color": "Blue",
+            "size": "L",
+            "material": "Cotton",
+            "stock": 25,
+            "image": "url_of_product_b_cotton_blue_l_image.jpg"
           }
         ]
       }
