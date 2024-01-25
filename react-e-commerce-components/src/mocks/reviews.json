@@ -1,0 +1,29 @@
+{
+    "reviews": [
+      {
+        "productId": 1,
+        "userName": "JohnDoe",
+        "rating": 5,
+        "comment": "Great product! Highly recommended."
+      },
+      {
+        "productId": 1,
+        "userName": "JaneSmith",
+        "rating": 4,
+        "comment": "Good quality, but the color is slightly different from the picture."
+      },
+      {
+        "productId": 2,
+        "userName": "AliceJohnson",
+        "rating": 3,
+        "comment": "Average product. Not bad, but not exceptional either."
+      },
+      {
+        "productId": 3,
+        "userName": "BobAnderson",
+        "rating": 4,
+        "comment": "Love the material. Perfect for summer."
+      }
+    ]
+  }
+  

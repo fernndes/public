@@ -1,0 +1,71 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Product A",
+        "description": "A brief description of Product A.",
+        "price": 49.99,
+        "image": "url_of_product_a_image.jpg",
+        "stock": 100,
+        "skus": [
+          {
+            "id": 101,
+            "color": "Blue",
+            "size": "M",
+            "material": "Cotton"
+          },
+          {
+            "id": 102,
+            "color": "Red",
+            "size": "L",
+            "material": "Polyester"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Product B",
+        "description": "A brief description of Product B.",
+        "price": 79.99,
+        "image": "url_of_product_b_image.jpg",
+        "stock": 50,
+        "skus": [
+          {
+            "id": 201,
+            "color": "Red",
+            "size": "L",
+            "material": "Polyester"
+          },
+          {
+            "id": 202,
+            "color": "Green",
+            "size": "S",
+            "material": "Linen"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Product C",
+        "description": "A brief description of Product C.",
+        "price": 29.99,
+        "image": "url_of_product_c_image.jpg",
+        "stock": 75,
+        "skus": [
+          {
+            "id": 301,
+            "color": "Green",
+            "size": "S",
+            "material": "Linen"
+          },
+          {
+            "id": 302,
+            "color": "Blue",
+            "size": "M",
+            "material": "Cotton"
+          }
+        ]
+      }
+    ]
+  }
+  
