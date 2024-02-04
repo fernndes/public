@@ -4,7 +4,10 @@
   "description": "Google OAuth2",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node-dev --respawn --transpile-only src/app.ts",
+    "db:migrate": "npx prisma migrate dev --name 'users' --create-only",
+    "db:generate": "npx prisma generate",
+    "db:push": "npx prisma db push"
   },
   "author": "Gabriel Fernandes",
   "license": "ISC",
